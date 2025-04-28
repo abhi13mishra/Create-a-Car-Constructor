@@ -1,0 +1,14 @@
+<script>
+    class car {
+        constructor(brand,model,year){
+           this.brand = brand;
+           this.model = model;
+           this.year = year;
+        }
+        getCarInfo(){
+            return `${this.brand} ${this.model} (${this.year})`
+        }
+    }
+    let car1 = new car ("Tesla", "Model S", 2020)
+    console.log(car1.getCarInfo());
+</script>
